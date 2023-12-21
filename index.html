@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="@adityaphasu" />
+    <meta
+      name="description"
+      content="A simple etch-a-sketch game made with HTML, CSS and JavaScript" />
+
+    <link rel="icon" type="image/png" href="/src/assets/favicon.ico" />
+    <link rel="stylesheet" href="/src/style.css" />
+    <title>Etch-a-Sketch</title>
+  </head>
+  <body>
+    <h1>Etch-A-sketch</h1>
+    <div class="wrapper">
+      <div class="tools">
+        <div class="color-picker-container">
+          <label for="color-picker" class="color-picker-label"> Pick a color</label>
+          <input type="color" id="color-picker" name="color-picker" />
+        </div>
+        <button class="eraser">Eraser</button>
+        <button class="clear">Clear</button>
+      </div>
+
+      <div class="grid-container"></div>
+    </div>
+    <div class="slider-container">
+      <label for="slider" class="slider-label">Grid: 16 x 16 </label>
+      <input type="range" name="slider" id="slider" value="16" min="5" max="50" />
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

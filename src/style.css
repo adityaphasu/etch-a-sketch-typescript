@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Amatic SC", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+button {
+  border: none;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+h1 {
+  font-size: 3.5rem;
+  margin-left: 8rem;
+  margin-bottom: 3rem;
+}
+
+.wrapper {
+  display: flex;
+  align-items: start;
+  gap: 2rem;
+}
+
+.grid-container {
+  border: 5px solid black;
+  display: grid;
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
+  width: 25rem;
+  height: 25rem;
+}
+
+.grid-item {
+  border: 1px solid black;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 4rem;
+}
+
+.color-picker-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.color-picker-label {
+  font-size: 2rem;
+}
+
+#color-picker {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 6rem;
+  height: 6rem;
+  border: none;
+  cursor: pointer;
+}
+
+#color-picker::-webkit-color-swatch {
+  border-radius: 50%;
+  border: 5px solid #000000;
+}
+
+#color-picker::-moz-color-swatch {
+  border-radius: 50%;
+  border: 5px solid #000000;
+}
+
+.eraser {
+  background-color: transparent;
+}
+
+.eraser:hover,
+.eraser:focus,
+.clear:hover,
+.clear:focus {
+  text-decoration: underline;
+}
+
+.clear {
+  background-color: tomato;
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+}
+
+.slider-container {
+  margin-left: 10rem;
+}
+
+.slider-label {
+  font-size: 1.5rem;
+}
