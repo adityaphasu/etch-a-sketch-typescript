@@ -12,10 +12,17 @@ This is a simple etch-a-sketch game made with HTML, CSS and TypeScript.
 
 </div>
 
-## How to play
+## Features
 
-- User can draw on the grid by pressing the mouse button and moving the cursor.
-- User can change the color of the grid by clicking on the color picker.
-- User can change the size of the grid by using on the size slider.
-- User can Erase the colored cells on the grid by clicking on the eraser button.
-- User can clear the grid by clicking on the clear button.
+- Choose a drawing color using the color picker.
+- Use the eraser tool to create highlights or clear the canvas.
+- Adjust the grid size for finer or larger drawings.
+- Reset the canvas to start a new drawing.
+
+## Usage
+
+1. Click and drag to draw on the canvas.
+2. Use the color picker to select your drawing color.
+3. Click the eraser button to switch to the eraser tool.
+4. Adjust the grid size with the slider for different drawing resolutions.
+5. Click the reset button to clear the canvas and start a new drawing.
